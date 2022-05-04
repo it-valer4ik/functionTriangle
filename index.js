@@ -8,7 +8,7 @@ const triangle = function (a = 2, b = 2, c = 2) {
 console.log(triangle())
 
 
-//c ** 2=a ** 2 + b ** 2;
+//c²=a²+b²;
 const triangle2 = function (a = 2, b = 2, c = 2) {
     if (c ** 2 === a ** 2 + b ** 2) {
         return result = 'not rectangular triangle';
@@ -17,7 +17,7 @@ const triangle2 = function (a = 2, b = 2, c = 2) {
 }
 console.log(triangle2())
 
-//a+ c = b+ c
+//a+c=b+c
 
 const triangle3 = function (a = 2, b = 2, c = 2) {
     if (a + c === b + c) {
